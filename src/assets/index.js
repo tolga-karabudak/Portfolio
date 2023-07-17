@@ -1,4 +1,6 @@
 import logo from "./logo.svg";
+import circle_logo from "./circle_logo.png";
+import logom from "./logom.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -31,6 +33,8 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  logom,
+  circle_logo,
   logo,
   backend,
   creator,
