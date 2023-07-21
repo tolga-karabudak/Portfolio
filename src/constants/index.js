@@ -13,15 +13,18 @@ import {
     nodejs,
     mongodb,
     git,
-    figma,
+    vitejs,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
+    baykar,
+    inavitas,
+    yucelen,
+    aybu,
+    netcad,
+    cprogramlama,
+    datalgo,
+    timesheet,
+    giftchain,
+    ushukuk,
     threejs,
   } from "../assets";
   
@@ -46,15 +49,15 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "ReactJS",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Frontend Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Software Testing",
       icon: creator,
     },
   ];
@@ -105,66 +108,95 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "Vite JS",
+      icon: vitejs,
     },
     {
       name: "docker",
       icon: docker,
     },
   ];
-  
+  const educations = [
+    {
+      title: "Computer Engineering (English)",
+      company_name: "Ankara Yıldırım Beyazıt University (2.80 GPA)",
+      icon: aybu,
+      iconBg: "#383E56",
+      date: "September 2016 - Agust 2022",
+      points: [
+        "Managing the science and technology club and informing new members about the department and emerging technologies.",
+        "While managing an e-sports club. I organized seminars with many game developers and learned about game development.",
+        "During my education, covid-19 appeared and I had the opportunity to make projects from most courses. You can find the links of my projects.",
+      ],
+    },
+   
+  ]
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Software Developer (Internship)",
+      company_name: "Styx Yazılım (Yücelen Group)",
+      icon: yucelen,
+      iconBg: "#E6DEDD",
+      date: "June 2021 - July 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Participated Character-Based Neural Network studies that carried out by the company.",
+        "Contributed in developing AI projects using Python.",
         "Participating in code reviews and providing constructive feedback to other developers.",
+        "Skills Learnt:  How combining characters with artificial intelligence helps technological advances.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Frontend Developer / ReactJS (Internship)",
+      company_name: "NETCAD Yazılım A.Ş",
+      icon: netcad,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "August 2021 - September 2021",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Mapping projects developed with ReactJS.",
         "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed for displaying data from static to dynamic using API's.",
+        "Communicating with customers, determining their needs and drawing a roadmap.",
+        "Skills Learnt: How to use efficiently Front-end tools for development."
+      ],
+    },
+    {
+      title: "Software Support Engineer",
+      company_name: "Inavitas Energy Management Systems",
+      icon: inavitas,
+      iconBg: "#E6DEDD",
+      date: "November 2021 - March 2022",
+      points: [
+        "Rest Driver management.",
+        "Creating software development steps according to the customer's requests.",
+        "Fix bugs under development.",
+        "Communicating with customers, determining their needs and drawing a roadmap.",
+        "Skills Learnt: Adapted flexible and remote working hours, Software development architecture design."
+      ],
+    },
+    {
+      title: "UAV Test Pilot",
+      company_name: "BAYKAR Technology",
+      icon: baykar,
+      iconBg: "#E6DEDD",
+      date: "March 2022 - September 2022",
+      points: [
+        "Took an active role in the ground and flight tests of Unmanned Aerial Vehicles.",
+        "Documentation and presentation of all processes up to the delivery stage of the produced Unmanned Aerial Vehicles and communicating with global customers.",
+        "Skills Learnt: Aviation and space, international trade transactions."
       ],
     },
     {
       title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      company_name: "Hitatek Yazılım (BAYKAR Technology)",
+      icon: baykar,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "September 2022 - April 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developing web-based full-stack products using NodeJS, React, MongoDB, JavaScript and Typescript technologies.",
+        "Creating a web application for related customers and presenting them as a product owner.",
+        "Skills Learnt: Product developing roadmap, object-oriented programming, product sales marketing and presentation"
       ],
     },
   ];
@@ -198,69 +230,120 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "C Programming Projects Library",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Problems that i have faced on my university. I collected them for improve myself and to do again",
       tags: [
         {
-          name: "react",
+          name: "cprogramming",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "objectorianted",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "GUI",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: cprogramlama,
+      source_code_link: "https://github.com/tolga-karabudak/C-Problems",
     },
     {
-      name: "Job IT",
+      name: "Data Structures and Algorithms Project Library",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Problems that i have faced on my university. I collected them for improve myself and to do again",
       tags: [
         {
-          name: "react",
+          name: "java",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "sql",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "mysql",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: datalgo,
+      source_code_link: "https://github.com/tolga-karabudak/Data-Structures-Problems-and-solutions",
     },
     {
-      name: "Trip Guide",
+      name: "Timesheet Tracking System",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Simple-Timesheet-Tracking The TimeSheet Tracking application involves applying CRUD operations to a database using .Net Core.",
       tags: [
         {
-          name: "nextjs",
+          name: "javascript",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "html",
           color: "green-text-gradient",
         },
         {
           name: "css",
-          color: "pink-text-gradient",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "c#",
+          color: "red-text-gradient",
+        },
+        {
+          name: "docker",
+          color: "purple-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: timesheet,
+      source_code_link: "https://github.com/tolga-karabudak/CENG423_Simple-Timesheet-Tracking",
+    },
+    {
+      name: "GiftChain",
+      description:
+        "An application made to vote each other for the gift draw for new year maybe. That project I'm trying learn vueJS.",
+      tags: [
+        {
+          name: "javascript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "html",
+          color: "green-text-gradient",
+        },
+        {
+          name: "vue",
+          color: "yellow-text-gradient",
+        },
+      ],
+      image: giftchain,
+      source_code_link: "https://github.com/tolga-karabudak/giftchain",
+    },
+    {
+      name: "Law Firm Website",
+      description:
+        "I took this job as a freelancer and developed a website using vanilla Javascript. The website is active and live.\n ushukukburosu.net",
+        
+      tags: [
+        {
+          name: "javascript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "html",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "yellow-text-gradient",
+        },
+      ],
+      image: ushukuk,
+      source_code_link: "https://github.com/tolga-karabudak/ushukukburosu.net",
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, educations };
   
