@@ -48,7 +48,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a fresh graduate software developer with experience in TypeScript and
+        I'm software developer with experience in TypeScript and
         JavaScript, and I have skills in frameworks like React, Node.js, and
         Three.js. Also I'm learning software testing apps like Selenium.
         I'm a quick learner and collaborate closely with clients to
