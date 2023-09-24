@@ -29,6 +29,7 @@ import inavitas from "./company/inavitas.png";
 import netcad from "./company/netcad.png";
 import yucelen from "./company/yucelen.png";
 import aybu from "./company/aybu.png";
+import teknopar from "./company/teknopar.png";
 
 import cprogramlama from "./cprogramlama.jpeg";
 import datalgo from "./datalgo.png";
@@ -61,6 +62,7 @@ export {
   typescript,
   threejs,
   baykar,
+  teknopar,
   inavitas,
   netcad,
   yucelen,
