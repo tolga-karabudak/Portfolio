@@ -15,6 +15,7 @@ import docker from "./tech/docker.png";
 import vitejs from "./tech/vitejs.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
+import java from "./tech/java.jpg";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
@@ -53,6 +54,7 @@ export {
   vitejs,
   git,
   html,
+  java,
   javascript,
   mongodb,
   nodejs,

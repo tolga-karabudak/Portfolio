@@ -7,6 +7,7 @@ import {
     typescript,
     html,
     css,
+    java,
     reactjs,
     redux,
     tailwind,
@@ -46,6 +47,10 @@ import {
   
   const services = [
     {
+      title: "Software Testing",
+      icon: creator,
+    },
+    {
       title: "Web Developer",
       icon: web,
     },
@@ -57,13 +62,14 @@ import {
       title: "Frontend Developer",
       icon: backend,
     },
-    {
-      title: "Software Testing",
-      icon: creator,
-    },
+
   ];
   
   const technologies = [
+    {
+      name: "Java",
+      icon: java,
+    },
     {
       name: "HTML 5",
       icon: html,
