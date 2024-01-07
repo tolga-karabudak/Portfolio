@@ -52,13 +52,21 @@ const ExperienceCard = ({ experience }) => {
           </li>
         ))}
       </ul>
+      
+      <h4 className="text-white text-[20px] font-semibold mt-5 underline">
+        Abilities:
+      </h4>
+      <p className="text-white-100 text-[14px] pl-1 tracking-wider">
+        {experience.abilities}
+      </p>
 
-      <h4 className="text-white text-[20px] font-semibold mt-5">
+      <h4 className="text-white text-[20px] font-semibold mt-5 underline">
         Tech Stack:
       </h4>
       <p className="text-white-100 text-[14px] pl-1 tracking-wider">
         {experience.techStack}
       </p>
+
     </VerticalTimelineElement>
   );
 };
