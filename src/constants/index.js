@@ -108,20 +108,94 @@ import {
   ]
   const experiences = [
     {
-      title: "Software Developer (Internship)",
-      company_name: "Styx Yazılım (Yücelen Group)",
-      icon: yucelen,
-      iconBg: "#E6DEDD",
-      date: "June 2021 - July 2021",
-      points: [
-        "Participated Character-Based Neural Network studies that carried out by the company.",
-        "Contributed in developing AI projects using Python.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-        "Skills Learnt:  How combining characters with artificial intelligence helps technological advances.",
+      "title": "Software Developer in Test",
+      "company_name": "Teknopar Endüstriyel Otomasyon San. ve Tic. A.Ş",
+      "icon": teknopar,
+      "iconBg": "#E6DEDD",
+      "date": "August 2023 - (.....)",
+      "points": [
+        "Developed Test Plan and Test Strategy for comprehensive software testing.",
+        "Prepared documentation and designed test cases aligned with project management processes and adhering to the project timeline.",
+        "Identified deficiencies in existing tests within projects and defined the scope for new test development.",
+        "Developed and executed software test cases, emphasizing web automation testing.",
+        "Conducted error tracking and reporting activities to ensure robust software quality.",
+        "Performed error analysis to investigate and address root causes of identified issues.",
+        "Utilized Selenium, Selenium Web Driver, Cypress, TestNG, Cucumber, Mocha, SonarQube, Postman, PyTest, Allure, and FitNesse in the testing process."
       ],
-      abilities: "Participated in Character-Based Neural Network studies, contributed to the development of AI projects using Python, participated in code reviews, provided constructive feedback to other developers. Acquired skills in combining characters with artificial intelligence for technological advances.",
-      techStack: "Python, Jupyter, Image Processing"
+      "abilities":[
+        "Specialized in Web Automation Testing.", 
+        "By developing and executing test cases using; Selenium, Selenium Web Driver, Cypress, and other relevant tools.",
+        "Played a key role in the development of Test Plan and Test Strategy.",
+        "Prepared comprehensive documentation and designed test cases in accordance with project management processes.",
+        "Identified and addressed deficiencies in existing tests and defined the scope for new test development.",
+        "Conducted error tracking, reporting, and root cause analysis activities to ensure software quality."
+      ],
+      "includedprojects": [
+        "Teknopar: Development, documentation and full responsibility for the e2e automation and manual testing of a project that is in the marketing phase of the company.",
+        "Consulted Company: CI-CD process management and transforming the development environment into a developer-friendly one."
+      ],
+      "techStack": "GitLab, VsCode-Server, Selenium, Selenium Web Driver, Cypress, TestNG, Cucumber, Mocha, SonarQube, Postman, Docker"
+    },
+    {
+      title: "Web Developer",
+      company_name: "Hitatek Yazılım (BAYKAR Technology)",
+      icon: baykar,
+      iconBg: "#E6DEDD",
+      date: "September 2022 - April 2023",
+      points: [
+        "Developing web-based full-stack products using NodeJS, React, MongoDB, JavaScript and Typescript technologies.",
+        "Creating a web application for related customers and presenting them as a product owner.",
+        "Skills Learnt: Product developing roadmap, object-oriented programming, product sales marketing and presentation"
+      ],
+      abilities:[
+        "Developed web-based",
+        "full-stack products using NodeJS, React, MongoDB, JavaScript, and Typescript. Created a web application for customers and presented it as a product owner. Gained expertise in product development roadmap, object-oriented programming, product sales marketing, and presentation.",
+      ],
+      includedprojects:["Developing a web-based educational program with multi-user login capability from scratch, both backend and frontend, and preparing its presentation and marketing materials"],
+      techStack: "HTML, CSS, JavaScript, React, MongoDB, Typescript, NodeJS (MERN Stack)"
 
+    },
+    {
+      title: "UAV Test Pilot",
+      company_name: "BAYKAR Technology",
+      icon: baykar,
+      iconBg: "#E6DEDD",
+      date: "March 2022 - September 2022",
+      points: [
+        "Took an active role in the ground and flight tests of Unmanned Aerial Vehicles.",
+        "Documentation and presentation of all processes up to the delivery stage of the produced Unmanned Aerial Vehicles and communicating with global customers.",
+        "Skills Learnt: Aviation and space, international trade transactions."
+      ],
+      abilities: [
+        "Took an active role in ground and flight tests",
+        "of Unmanned Aerial Vehicles. Documented and presented all processes up to the delivery stage of produced UAVs, communicating with global customers. Gained expertise in aviation and space technology and acquired knowledge about international trade transactions.",
+      ],
+      includedprojects:[
+        "TB-2"
+      ],
+      techStack: "Used secret tools produced for the company"
+    },
+    {
+      title: "Software Support Engineer",
+      company_name: "Inavitas Energy Management Systems",
+      icon: inavitas,
+      iconBg: "#E6DEDD",
+      date: "November 2021 - March 2022",
+      points: [
+        "Rest Driver management.",
+        "Creating software development steps according to the customer's requests.",
+        "Fix bugs under development.",
+        "Communicating with customers, determining their needs and drawing a roadmap.",
+        "Skills Learnt: Adapted flexible and remote working hours, Software development architecture design."
+      ],
+      abilities: [
+        "Managed Rest Drivers for efficient software support.",
+        "Created software development steps based on customer requests. Fixed bugs during the development process. Communicated with customers to identify needs and outlined roadmaps. Adapted to flexible and remote working hours. Gained expertise in software development architecture design.",
+      ],
+      includedprojects:[
+        "Energy Management Systems",
+      ],
+      techStack: "Jenkins, Rancher, DBeaver, PostgreSQL"
     },
     {
       title: "Frontend Developer / ReactJS (Internship)",
@@ -138,74 +212,37 @@ import {
         "Communicating with customers, determining their needs and drawing a roadmap.",
         "Skills Learnt: How to use efficiently Front-end tools for development."
       ],
-      abilities: "Developed and maintained web applications using React.js and related technologies. Collaborated with cross-functional teams to create high-quality products. Mapped ReactJS projects and participated in code reviews. Developed features for dynamic data display using APIs. Communicated with customers to determine needs and created roadmaps. Acquired skills in efficiently using Front-end tools for development.",
+      abilities: [
+        "Developed and maintained web applications using React.js",
+        "and related technologies. Collaborated with cross-functional teams to create high-quality products. Mapped ReactJS projects and participated in code reviews. Developed features for dynamic data display using APIs. Communicated with customers to determine needs and created roadmaps. Acquired skills in efficiently using Front-end tools for development.",
+      ],
+      includedprojects:[
+        "KentRehberim"
+      ],
       techStack: "ReactJS, Node.js"
 
     },
     {
-      title: "Software Support Engineer",
-      company_name: "Inavitas Energy Management Systems",
-      icon: inavitas,
+      title: "Software Developer (Internship)",
+      company_name: "Styx Yazılım (Yücelen Group)",
+      icon: yucelen,
       iconBg: "#E6DEDD",
-      date: "November 2021 - March 2022",
+      date: "June 2021 - July 2021",
       points: [
-        "Rest Driver management.",
-        "Creating software development steps according to the customer's requests.",
-        "Fix bugs under development.",
-        "Communicating with customers, determining their needs and drawing a roadmap.",
-        "Skills Learnt: Adapted flexible and remote working hours, Software development architecture design."
+        "Participated Character-Based Neural Network studies that carried out by the company.",
+        "Contributed in developing AI projects using Python.",
+        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Skills Learnt:  How combining characters with artificial intelligence helps technological advances.",
       ],
-      abilities: "Managed Rest Drivers for efficient software support. Created software development steps based on customer requests. Fixed bugs during the development process. Communicated with customers to identify needs and outlined roadmaps. Adapted to flexible and remote working hours. Gained expertise in software development architecture design.",
-      techStack: "Jenkins, Rancher, DBeaver, PostgreSQL"
-    },
-    {
-      title: "UAV Test Pilot",
-      company_name: "BAYKAR Technology",
-      icon: baykar,
-      iconBg: "#E6DEDD",
-      date: "March 2022 - September 2022",
-      points: [
-        "Took an active role in the ground and flight tests of Unmanned Aerial Vehicles.",
-        "Documentation and presentation of all processes up to the delivery stage of the produced Unmanned Aerial Vehicles and communicating with global customers.",
-        "Skills Learnt: Aviation and space, international trade transactions."
-      ],
-      abilities: "Took an active role in ground and flight tests of Unmanned Aerial Vehicles. Documented and presented all processes up to the delivery stage of produced UAVs, communicating with global customers. Gained expertise in aviation and space technology and acquired knowledge about international trade transactions.",
-      techStack: "Used secret tools produced for the company"
-    },
-    {
-      title: "Web Developer",
-      company_name: "Hitatek Yazılım (BAYKAR Technology)",
-      icon: baykar,
-      iconBg: "#E6DEDD",
-      date: "September 2022 - April 2023",
-      points: [
-        "Developing web-based full-stack products using NodeJS, React, MongoDB, JavaScript and Typescript technologies.",
-        "Creating a web application for related customers and presenting them as a product owner.",
-        "Skills Learnt: Product developing roadmap, object-oriented programming, product sales marketing and presentation"
-      ],
-      abilities: "Developed web-based full-stack products using NodeJS, React, MongoDB, JavaScript, and Typescript. Created a web application for customers and presented it as a product owner. Gained expertise in product development roadmap, object-oriented programming, product sales marketing, and presentation.",
-      techStack: "HTML, CSS, JavaScript, React, MongoDB, Typescript, NodeJS (MERN Stack)"
+      abilities: [
 
-    },
-    {
-      title: "Software Developer in Test",
-      company_name: "Teknopar Endüstriyel Otomasyon San. ve Tic. A.Ş",
-      icon: teknopar,
-      iconBg: "#E6DEDD",
-      date: "August 2023 - (.....)",
-      points: [
-        "Developed Test Plan and Test Strategy for comprehensive software testing.",
-        "Prepared documentation and designed test cases aligned with project management processes and adhering to the project timeline.",
-        "Identified deficiencies in existing tests within projects and defined the scope for new test development.",
-        "Developed and executed software test cases, emphasizing web automation testing.",
-        "Conducted error tracking and reporting activities to ensure robust software quality.",
-        "Performed error analysis to investigate and address root causes of identified issues.",
-        "Utilized Selenium, Selenium Web Driver, Cypress, TestNG, Cucumber, Mocha, SonarQube, Postman, PyTest, Allure, and FitNesse in the testing process.",
+        "Participated in Character-Based Neural Network studies,",
+        "contributed to the development of AI projects using Python, participated in code reviews, provided constructive feedback to other developers. Acquired skills in combining characters with artificial intelligence for technological advances.",
       ],
-      abilities: "Specialized in Web Automation Testing by developing and executing test cases using Selenium, Selenium Web Driver, Cypress, and other relevant tools. Played a key role in the development of Test Plan and Test Strategy. Prepared comprehensive documentation and designed test cases in accordance with project management processes. Identified and addressed deficiencies in existing tests and defined the scope for new test development. Conducted error tracking, reporting, and root cause analysis activities to ensure software quality.",
-      techStack: "Selenium, Selenium Web Driver, Cypress, TestNG, Cucumber, Mocha, SonarQube, Postman, PyTest, Allure, FitNesse"
-    }
-    
+      includedprojects:["(-)"],
+      techStack: "Python, Jupyter, Image Processing"
+
+    },   
   ];
   
   const testimonials = [

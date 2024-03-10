@@ -46,30 +46,52 @@ const ExperienceCard = ({ experience }) => {
         {experience.points.map((point, index) => (
           <li
             key={`experience-point-${index}`}
-            className="text-white-100 text-[14px] pl-1 tracking-wider"
+            className="text-white-100 text-[16px] pl-1 tracking-wider"
           >
             {point}
           </li>
         ))}
       </ul>
       
-      <h4 className="text-white text-[20px] font-semibold mt-5 underline">
+      <h4 className="text-white text-[18px] font-semibold mt-5 underline">
         Abilities:
       </h4>
-      <p className="text-white-100 text-[14px] pl-1 tracking-wider">
-        {experience.abilities}
-      </p>
+      <ul className="mt-5 list-disc ml-5 space-y-2">
+        {experience.abilities.map((point, index) => (
+          <li
+            key={`experience-point-${index}`}
+            className="text-white-100 text-[16px] pl-1 tracking-wider"
+          >
+            {point}
+          </li>
+        ))}
+      </ul>
 
-      <h4 className="text-white text-[20px] font-semibold mt-5 underline">
+      <h4 className="text-white text-[18px] font-semibold mt-5 underline">
+        Projects:
+      </h4>
+      <ul className="mt-5 list-disc ml-5 space-y-2">
+        {experience.includedprojects.map((point, index) => (
+          <li
+            key={`experience-point-${index}`}
+            className="text-white-100 text-[16px] pl-1 tracking-wider"
+          >
+            {point}
+          </li>
+        ))}
+      </ul>
+
+      <h4 className="text-white text-[18px] font-semibold mt-5 underline">
         Tech Stack:
       </h4>
-      <p className="text-white-100 text-[14px] pl-1 tracking-wider">
+      <p className="text-white-100 text-[16px] pl-1 tracking-wider">
         {experience.techStack}
       </p>
 
     </VerticalTimelineElement>
   );
 };
+
 
 const Experience = () => {
   return (
